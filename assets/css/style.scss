@@ -7,6 +7,7 @@ $white: #696E77;
 $black: rgba(0,0,0,0.9);
 $darkblack: #000;
 $whiten: #fff;
+$main-bg: rgba(1, 10, 53, .8);
 
 $font-stack: "Roboto Slab", serif;
 
@@ -81,7 +82,7 @@ body {
           .brand-title {
         font-size: 24px;
         font-weight: 700;
-        color: rgba(1, 10, 53, 0.8);
+        color:#0b74ad;
         margin-bottom: 8px;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -135,7 +136,7 @@ body {
 
 /* ---------- HERO SECTION ---------- */
 .hero-section {
-  background: rgba(1, 10, 53, .8) center/cover no-repeat;
+  background: $main-bg center/cover no-repeat;
   color: $white;
   text-align: center;
   padding: 120px 20px;
@@ -319,7 +320,7 @@ body {
 }
 /* ---------- FOOTER ---------- */
 .footer {
-  background: rgba(1, 10, 53, .8);
+  background: $main-bg;
   color: $whiten;
   padding: 40px 10% 20px;
   font-size: 0.95rem;
